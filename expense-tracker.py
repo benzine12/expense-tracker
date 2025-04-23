@@ -17,10 +17,10 @@ def read_data():
     with open("expense_tracker.json","r") as json_file:
         json_object = json.load(json_file)
 
-        id = json_object["id"]
-        data = json_object["data"]
-        description = json_object["description"]
-        amount = json_object["amount"]
+        id = json_object[-1]["id"]
+        data = json_object[-1]["data"]
+        description = json_object[-1]["description"]
+        amount = json_object[-1]["amount"]
 
         return id,data,description,amount
 
