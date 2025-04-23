@@ -1,3 +1,3 @@
-Project for [text](https://roadmap.sh/projects/expense-tracker)
+Project for [https://roadmap.sh](https://roadmap.sh/projects/expense-tracker)
 
 
